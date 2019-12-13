@@ -1,0 +1,61 @@
+"Application": "PlayTones,
+"AppData": 'busy
+*Context": "bbs-pabx",
+"Extension" : "9001",
+"Priority": 3,
+"Attributes" : {
+"channelstate":6,
+"channelstatedesc": Up,
+"calleridnum": "9002",
+*calleridname": "Fazrin,
+*connectedlinenum": "9001",
+'connectedlinename": "Mem",
+"language":"en_AU",
+"accountcode": 9002",
+"exten": "9001",
+"linkedid": "-1576072736.408"
+"Channel": "SIP/9002-000000bb",
+"DateReceived": "2019-12-11T19:29:01.0914493+05:30",
+"Privilege': "call",
+"Server": null,
+"Source" : {
+"VAR_DELIMITER:[
+"UseASyncEvents": true,
+"ReconnectRetryFast": 5,
+"ReconnectRetryMax": 10,
+"ReconnectintervalFast": 5000,
+"ReconnectintervalMax": 10000,
+"Fire AllEvents": false,
+"PingInterval": 10000,
+"Hostname": "fazrin.voippabx.com.au"
+"Port": 5038,
+"Username": "95DBfOFTSEKT",
+"Password": "03HUCVW3QGX",
+"DefaultResponseTimeout": "2000",
+"DefaultEventTimeout": "5000",
+"SleepTime": 50,
+"KeepAliveAfterAuthenticationFailure": false,
+"KeepAlive": true,
+"SocketEncoding": {
+"IsSingleByte": true,
+"BodyName" :"us-ascii",
+"EncodingName": "US-ASCII",
+"HeaderName":us-ascii",
+"WebName":"us-ascii",
+"WindowsCodePage: 1252,
+"Is BrowserDisplay": false,
+"Is Browser Save": false,
+"IsMailNewsDisplay": true,
+"IsMailNewsSave": true,
+"EncoderFallback": {
+"DefaultString": "?",
+"MaxCharCount" : 1
+"DecoderFallback:{
+"DefaultString": "?",
+"MaxCharCount": 1
+"IsReadOnly":true,
+"CodePage" : 20127
+"Version": 13.11.2",
+"AsteriskVersion": 130
+"Timestamp":"0.0",
+"Uniqueld": "-1576072736.408"
